@@ -15,4 +15,4 @@ This app has four sections.
 4. Fourth Section - Small quiz to test your knowledge on triangles.
 
 ## Image
-![Project]()
+![Project](https://github.com/yashgupta18/triangle/blob/main/triangles.png)
