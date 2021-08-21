@@ -6,13 +6,13 @@ This is the mini triangles World. This Web app is made using VanillaJS,HTML and 
 
 This app has four sections.
 
-1. First section tells us whether the given angles will sum up to form a triangle or not. It has three inputs and outputs the result for the same.
+1. First section- three inputs and outputs if it makes a triangle.
 
-2. This section deals with the hypotenuse of a traingle. It takes input of the two sides of the triangle and lets us know thw hypotenuse through pythagoras theorem.
+2. Second section - Gives hypotenuse by entering other 2 sides.
 
-3. This section deals with the area of traingle in three logic:-
-   a. If you have base and height.
-   b. If you have length of 3 sides.
-   c. If you have length of two sides and an angle.
+3. This section deals with the area of traingle in based on different conditions.
 
-4. This is an awesome quiz on complete traigles topic. It displays the score of an user at the end. Fun part of the app.
+4. Fourth Section - Small quiz to test your knowledge on triangles.
+
+## Image
+![Project]()
