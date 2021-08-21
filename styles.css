@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Oswald&display=swap");
+
+:root {
+  --primary-color: #f5f3ff;
+}
+body {
+  background-color: var(--primary-color);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Merriweather", serif;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #ff2600;
+}
+.arrange1 {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  border: 4px solid #8b5cf6;
+  padding: 10px 20px;
+  text-align: center;
+  box-sizing: content-box;
+  width: 50%;
+  margin: 3rem auto;
+  font-weight: bolder;
+  font-size: larger;
+  background-color: #8b5cf6;
+  color: white;
+}
+.arrange2 {
+  text-decoration: none;
+  display: block;
+  margin-bottom: 2rem;
+  background-color: #8b5cf6;
+  color: white;
+  border: 4px solid #8b5cf6;
+  padding: 10px 20px;
+  text-align: center;
+  box-sizing: content-box;
+  width: 50%;
+  margin: 3rem auto;
+  font-weight: bolder;
+  font-size: larger;
+}
+a:-webkit-any-link {
+  cursor: pointer;
+  text-decoration: none;
+}
+.body1 {
+  background-image: url("images/bg-main.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Merriweather", serif;
+}
+.list-non-bullet {
+  position: fixed;
+  top: 0pt;
+  right: 0pt;
+  list-style: none;
+}
+ul li {
+  display: inline;
+  padding: 1rem;
+}
+
+.fa-home {
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-weight: bolder;
+}
+.link1 {
+  text-decoration: none;
+  display: block;
+  color: #111827;
+  text-align: center;
+  width: 20%;
+  margin: 0rem auto;
+  font-weight: bolder;
+  font-size: larger;
+}
+.para {
+  text-align: center;
+  margin-top: 5rem;
+  font-size: x-large;
+  color: #f87171;
+  font-weight: bolder;
+}
+.entryBox {
+  height: 10px;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+.form {
+  text-align: center;
+}
+.button {
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
+  background-color: #e7e7e7;
+  border: 2px solid #4b5563;
+
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+
+  font-size: 16px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #4b5563;
+  color: white;
+}
+.outputHere {
+  text-align: center;
+  margin-top: 2rem;
+  font-weight: bold;
+  font-size: larger;
+}
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.label {
+  font-weight: bold;
+  display: inline-block;
+  font-size: larger;
+}
+.division {
+  margin: auto;
+  display: inline-block;
+}
+.fa .fas {
+  font-weight: bolder;
+}
+h2 {
+  color: #f87171;
+}
+.radio-type {
+  padding: 1rem;
+}
+.para {
+  margin-top: 1rem;
+}
+.quiz-form {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.question-container input {
+  cursor: pointer;
+  padding: 0.5rem 0.5rem;
+  display: inline-block;
+}
+.question-container {
+  padding: 0.5rem 1rem;
+  white-space: normal;
+}
+#submit-button {
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
+  background-color: #e7e7e7;
+  border: 2px solid #4b5563;
+
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+
+  font-size: 16px;
+  cursor: pointer;
+}
+#submit-button:hover {
+  background-color: #4b5563;
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  body {
+    background-image: url("images/bg-main.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+  }
+}
