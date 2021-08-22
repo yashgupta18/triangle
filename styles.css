@@ -13,7 +13,9 @@ body {
 h1 {
   text-align: center;
   margin-bottom: 3rem;
-  color: #ff2600;
+  color: #ffffff;
+  display: block;
+  background-color: #000;
 }
 .arrange1 {
   text-decoration: none;
@@ -73,19 +75,20 @@ ul li {
   padding: 1rem;
 }
 
-.fa-home {
+.fa-arrow-left {
   display: block;
-  margin: auto;
-  text-align: center;
+  /* margin: auto; */
+  /* text-align: center; */
   font-weight: bolder;
 }
 .link1 {
   text-decoration: none;
   display: block;
-  color: #111827;
-  text-align: center;
+  color: #126f00;
+  background-color: #f87171;
+  border-radius: 0.5rem;
   width: 20%;
-  margin: 0rem auto;
+  margin: 2rem;
   font-weight: bolder;
   font-size: larger;
 }
@@ -110,7 +113,7 @@ ul li {
   margin-top: 1rem;
   background-color: #e7e7e7;
   border: 2px solid #4b5563;
-
+  border-radius: 10%;
   padding: 10px 22px;
   text-align: center;
   text-decoration: none;
@@ -119,7 +122,7 @@ ul li {
   cursor: pointer;
 }
 .button:hover {
-  background-color: #4b5563;
+  background-color: #2f69bb;
   color: white;
 }
 .outputHere {
