@@ -131,6 +131,10 @@ ul li {
   font-weight: bold;
   font-size: larger;
 }
+.para {
+  margin-top: 1rem;
+  color: #8b5cf6;
+}
 .image {
   display: block;
   margin-left: auto;
@@ -153,9 +157,6 @@ h2 {
 }
 .radio-type {
   padding: 1rem;
-}
-.para {
-  margin-top: 1rem;
 }
 .quiz-form {
   text-align: center;
