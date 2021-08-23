@@ -7,7 +7,7 @@ Hypotenuse.addEventListener("submit", (e) => {
   lengthA = Number(sides[0].value);
   lengthB = Number(sides[1].value);
 
-  outputDiv.innerHTML = `H= ${Math.sqrt(
+  outputDiv.innerHTML = `Hypotenuse= ${Math.sqrt(
     lengthA * lengthA + lengthB * lengthB
   )}`;
 });
