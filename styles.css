@@ -103,6 +103,13 @@ ul li {
   height: 10px;
   padding: 1rem;
   margin-top: 1rem;
+  border-radius: 10%;
+  border-color: brown;
+}
+.entryBox:hover {
+  background-color: #126f00;
+  color: #ffffff;
+  border-color: #ffffff;
 }
 .form {
   text-align: center;
@@ -178,8 +185,8 @@ h2 {
   margin: auto;
   margin-top: 1rem;
   background-color: #e7e7e7;
-  border: 2px solid #4b5563;
-
+  border: 2px solid #3081f1;
+  border-radius: 10%;
   padding: 10px 22px;
   text-align: center;
   text-decoration: none;
@@ -188,7 +195,7 @@ h2 {
   cursor: pointer;
 }
 #submit-button:hover {
-  background-color: #4b5563;
+  background-color: #3081f1;
   color: white;
 }
 @media screen and (max-width: 768px) {
